@@ -87,6 +87,7 @@ module.exports = {
   WARN_MSG:
     process.env.WARN_MSG === undefined ? "Ok bie" : process.env.WARN_MSG,
   ANTIJID: process.env.ANTIJID === undefined ? "" : process.env.ANTIJID,
+  WORKTYPE: process.env.WORK_TYPE === undefined ? 'public' : process.env.WORK_TYPE,
   STICKER_PACKNAME:
     process.env.STICKER_PACKNAME === undefined
       ? "🥰,lyfe00011"
