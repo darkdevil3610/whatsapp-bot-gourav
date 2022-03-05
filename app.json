@@ -76,10 +76,16 @@
             "description": "Sticker pack name,author",
             "value": "🥰,lyfe00011"
         },
+                "WORK_TYPE": {
+            "description": "pinky  Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. and if you use “admin”, only admin can use bot and not all feature (only features needed to maintain a standerd group)",
+            "required": true,
+            "value": "public"
+        },
         "DISABLE_BOT": {
             "description": "Disable or Block bot in group/chat.Enter required chat jid separated by ,",
             "value": "null"
         },
+        
         "FIND_API_KEY": {
             "description": "key from https://dashboard.audd.io/",
             "value": "null"
