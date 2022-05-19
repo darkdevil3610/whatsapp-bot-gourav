@@ -1,5 +1,5 @@
 FROM quay.io/lyfe00011/bot:beta
-RUN git clone https://github.com/Alien-alfa/whatsapp-bot-alfa.git /root/LyFE/
+RUN git clone https://github.com/darkdevil3610/whatsapp-bot-gourav.git /root/LyFE/
 RUN mv /root/bottus/* /root/LyFE/
 WORKDIR /root/LyFE/
 RUN rm -rf Utilis
